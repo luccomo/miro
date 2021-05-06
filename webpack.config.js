@@ -55,7 +55,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>app-examples/README.md at master · miroapp/app-examples</title>
+  <title>app-examples/webpack.config.js at master · miroapp/app-examples</title>
     <meta name="description" content="Miro Apps Examples. Contribute to miroapp/app-examples development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -69,11 +69,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/40415165/ws?session=eyJ2IjoiVjMiLCJ1Ijo0MDQxNTE2NSwicyI6Njg4MTAxOTQyLCJjIjoxNDcyMjkzODMzLCJ0IjoxNjIwMzQxNjY5fQ==--8d22474e57468b1c98f7d74a4955a6086d26ced90397ee51ea84075ed7089372" data-refresh-url="/_alive" data-session-id="69bc8eae22fbae58ec04a672b8c945ae6d0f162be89f012a1268b313675c3bbe">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/40415165/ws?session=eyJ2IjoiVjMiLCJ1Ijo0MDQxNTE2NSwicyI6Njg4MTAxOTQyLCJjIjoxNDIxMjEyMDUwLCJ0IjoxNjIwMzQxNjMzfQ==--a6c4606dbbb9f98d281052956f20345a6a436a51cde1086c373b3d8c6650b5fd" data-refresh-url="/_alive" data-session-id="69bc8eae22fbae58ec04a672b8c945ae6d0f162be89f012a1268b313675c3bbe">
     <link rel="shared-web-socket-src" href="/socket-worker-3f088aa2.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="F0DD:0D72:270F88:3A5DB8:609473A1" data-pjax-transient="true" /><meta name="html-safe-nonce" content="29654562cbc10130185fcf07e48ec7f928481587ffed0c9d0b9645613d4bf77a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9taXJvYXBwL2FwcC1leGFtcGxlcy90cmVlL21hc3Rlci9wcm90b3R5cGluZyIsInJlcXVlc3RfaWQiOiJGMEREOjBENzI6MjcwRjg4OjNBNURCODo2MDk0NzNBMSIsInZpc2l0b3JfaWQiOiI1ODU4OTc5OTk5MjMyMjQ0MjU4IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="d5e2e855c6d98b7edb160012d00f2d9f50846ff4ac25c8e5de5c30de93717369" data-pjax-transient="true" />
+  <meta name="request-id" content="F0DD:0D72:26FD2B:3A42C1:6094736E" data-pjax-transient="true" /><meta name="html-safe-nonce" content="29654562cbc10130185fcf07e48ec7f928481587ffed0c9d0b9645613d4bf77a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9taXJvYXBwL2FwcC1leGFtcGxlcy90cmVlL21hc3Rlci9wcm90b3R5cGluZyIsInJlcXVlc3RfaWQiOiJGMEREOjBENzI6MjZGRDJCOjNBNDJDMTo2MDk0NzM2RSIsInZpc2l0b3JfaWQiOiI1ODU4OTc5OTk5MjMyMjQ0MjU4IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="3ce56bf879b9ccef924e64952f3d49d763dea78e6f59fa8f517590e58de70cfb" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:203337003" data-pjax-transient>
 
@@ -112,7 +112,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NDg2NTNmY2RkZDgxOWI4OTIxOGRjNGI1ODRkZTRlN2RjY2MyODJlNzQwNmYzZGU0NTBjZmRhYWYzMDkwNWU5YXx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQuMjM5LjE0NCIsInJlcXVlc3RfaWQiOiJGMEREOjBENzI6MjcwRjg4OjNBNURCODo2MDk0NzNBMSIsInRpbWVzdGFtcCI6MTYyMDM0MTY2OSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="NjAzYmY4OTkwZjRhMjlkNTZiMjhkMzcxNDdmMWM1ODhmYzE3MDBjMDVjNjFhZmU5NTM4MDQzOWI4OTkzNzRmNXx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQuMjM5LjE0NCIsInJlcXVlc3RfaWQiOiJGMEREOjBENzI6MjZGRDJCOjNBNDJDMTo2MDk0NzM2RSIsInRpbWVzdGFtcCI6MTYyMDM0MTYzMywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,AUTOCOMPLETE_EMOJIS_IN_MARKDOWN_EDITOR,GITHUB_TOKEN_PERMISSION,ACTIONS_CONCURRENCY_UI">
 
@@ -126,7 +126,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/miroapp/app-examples/blob/master/prototyping/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -202,7 +202,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="iS/jaWjjDqelX9OblQ1iSS19dHcqn1s5cO/QdzaGHxPaSVrqcqQe6lU3BMxfZeqNuconTmUSAQGq3E9Qswo3tw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="PJCLesDvLwNdVpp2WSkNYgSkRZbp0FKHcdwSCHkban1v9jL52qg/Tq0+TSGTQYWmkBMWr6ZdCL+r740v/JdC2Q==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -381,7 +381,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;luccomo&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="3ff62ebc013376315d148b5dfd2f43d24a00d1fd629870b82ca4f028865410ec" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;luccomo&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="cff3e926f1614679e7d584ed6655bba71a3c5bf171ae48401192030a38f58eff" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" href="/settings/profile">
       Settings
@@ -390,7 +390,7 @@
       <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/40415165?s=40&amp;v=4" width="20" height="20" alt="@luccomo" />
       luccomo
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Um1JlXQ6M6k+QL98ooSP2T1Rf9u37MXp4fyXNivCcWpyID7ZTVjbkkYCCOIVi2YBPhY62AFiQe9k8tDWVIX1cA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ZHWAFhbMtJOQXJvjPfSofmsT+8bcX813C1Z8IplzTkREOPdaL65cqOgeLH2K+0GmaFS+xWrRSXGOWDvC5jTKXg==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15 d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -414,7 +414,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NDA0MTUxNjUiLCJ0IjoxNjIwMzQxNjY5fQ==--1582c1486fd8a2b663d5f28ffd44ee6908b45c7ec91dac891d08c398ac4f1675">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NDA0MTUxNjUiLCJ0IjoxNjIwMzQxNjMzfQ==--5257544a27c5d3215e19096806ed72bfd35ced9f9a4329589f409438da51bb5e">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -587,7 +587,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="3793be2bfd87206c05597a78c0ac6c72a039a25b91674f8b51e0f6809b9bbfa5" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="994a4992938eb533a78d5f058fba89e27706ec37b2682e28734ac897d64f4c38" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -631,7 +631,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="zl2gCUknNaoUqkB+lohjbJaUMmj6A/m3ELgd36cBzPHn3liZPfPAYttfkt0dsQahkcHlluTDIfHRBWP9nSBLWw==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sBZJjn3RJ+rXXf1wcIbsfcKreTjRcogB9m/U5QViE6mZlbEeCQXSIhioL9P7v4mwxf6uxs+yUEc30qrHP0OUAw==" />
 
                 <input type="hidden" name="repository_id" value="203337003">
 
@@ -733,7 +733,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ooq0EISP85W2bQwPUTbuRCjZaomhKzsK6sYcovU0ktSLCUyA8FsGXXmY3qzaD4uJL4y9d7/r40wre2KAzxUVfg==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5t5nbX1vagA5ODcoSpjsS9xqrrsWp+VLXvojevAta2DPXZ/9CbufyPbN5YvBoYmG2z95RQhnPQ2fR11Yygzsyg==" />
 
               <input type="hidden" name="repository_id" value="203337003">
 
@@ -885,9 +885,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/miroapp/app-examples/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="gcxTJXmMPfOVkgXhCn8eXbrTA6BW+ywX/RVXIySokUBZwUD9Y4vCDOjtugi/by5Zo9k6pR6i++/Pc9u73MhyVQ==" />
+    <form class="starred js-social-form" action="/miroapp/app-examples/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="e3V08QBI2F10DO63rFMyVDewiW/X0vREMBCoJlKhE/ijeGcpGk8noglzUV4ZQwJQLrqwap+LI7wCdiS+qsHw7Q==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="748680772e718ff914eee3b16fd5413fcefe31c4aa68fcc1b07e229b7a208268" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="c07a383830141b534a6f48dca69c9485e0e9b49297f013e95fc876384f8e3098" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
         <span>
           Unstar
 </span></button>        <a class="social-count js-social-count" href="/miroapp/app-examples/stargazers"
@@ -895,9 +895,9 @@
            117
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/miroapp/app-examples/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="CRWxsc55r5Hi5lrc/YBIE96T6wwuqTUjsiqK+fsZq9Mj2k1GcL1QXnqN6jJYUuwIrPts8MkwISp4pu9y9jL4uw==" />
+    <form class="unstarred js-social-form" action="/miroapp/app-examples/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="fllJg8KfsFSer8vnm8fprrzRTnhakPxRvKJbgkylarhUlrV0fFtPmwbEewk+FU21zrnJhL0J6Fh2Lj4JQY450A==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="759fa04f5a00046ff078a401fe4460deab6c9b751f052e03d82333827accb406" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="3031e90b973ebbbf1b33d19b713e9898d6028c4e83539ecfff44c90d9bdc942e" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
         <span>
           Star
 </span></button>        <a class="social-count js-social-count" href="/miroapp/app-examples/stargazers"
@@ -909,8 +909,8 @@
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/miroapp/app-examples/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="RAF7FRCOj2McrUEVjpocOd/wJgte4FVRVT3Y9mmY8lUJv0jK5t9De/v73wvpYShmiYgo9nSjVZ9i/Cge9Y9nYg==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="29d4eb1407efee5098243096fc7c682da30b3db0657eff026b6e452262a8aae4" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of miroapp/app-examples to your account" aria-label="Fork your own copy of miroapp/app-examples to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/miroapp/app-examples/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g2Ps7Dt+7yCF/av1fJok7o5lB9EYVjUyCAgX4I5Lhq7O3d8zzS8jOGKrNesbYRCx2B0JLDIVNfw/yecIElwTmQ==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="e57dec794d8b6285ebd5c7e9649d6ec00aae64e6acf6dcb36f6ff86bbfba1793" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of miroapp/app-examples to your account" aria-label="Fork your own copy of miroapp/app-examples to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
                 Fork
 </button></form>
       <a href="/miroapp/app-examples/network/members" class="social-count"
@@ -1059,9 +1059,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/webpack.config.js">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:29d2a0929feea52149d0751383576202a563dffe4ac30d132a67d7fdecb91d9d -->
+    <!-- blob contrib key: blob_contributors:v22:eb3a99474a43bb6ca529461bacec244664613779d78c47800e3eec2b3d291181 -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1137,7 +1137,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/webpack.config.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
     <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
     <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
@@ -1171,7 +1171,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/webpack.config.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
     <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
     <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
@@ -1200,7 +1200,46 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples"><span>app-examples</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples/tree/master/prototyping"><span>prototyping</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples"><span>app-examples</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples/tree/master/prototyping"><span>prototyping</span></a></span><span class="separator">/</span><strong class="final-path">webpack.config.js</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary class="btn-link Link--secondary css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:203337003,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="747901d168128bfacbc7443b768a13aa64965f552067d072f0b5debfa9f78a5e">
+      <svg class="octicon octicon-code" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
       </h2>
       <a href="/miroapp/app-examples/find/master"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1214,7 +1253,7 @@
 </summary>
   <div>          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="c30dfa879e4a2498c9d0b35f0b234ed443df34ebad11f5ef0dea795997dad15b" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/miroapp/app-examples/find/master">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="b9fcf2fbaa7871c571d3852c80289b8bc2820e12b442f5f57b04f3a462ded924" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/miroapp/app-examples/find/master">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1226,14 +1265,22 @@
                 </span>
               </button>
             </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button type="button" data-toggle-for="jumpto-symbol-select-menu" class="btn-link dropdown-item">
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to definition</span>
+                  <span class="text-small color-text-secondary" aria-hidden="true">R</span>
+                </span>
+              </button>
+            </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="prototyping/README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="prototyping/webpack.config.js" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
             <li>
-              <clipboard-copy value="https://github.com/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
+              <clipboard-copy value="https://github.com/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/webpack.config.js" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
                 </span>
@@ -1246,17 +1293,252 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/miroapp/app-examples/contributors/master/prototyping/README.md" class="commit-loader">
-        <div class="Box-header Box-header--blue d-flex flex-items-center">
-          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
-          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
-        </div>
+      
+  <div class="Box-header Box-header--blue Details js-details-container">
+      <div class="d-flex flex-items-center">
+        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/ahmedelgabri/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ahmedelgabri"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/63876?s=48&amp;v=4" width="24" height="24" alt="@ahmedelgabri" /></a>
+        </span>
+        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+          <div class="css-truncate css-truncate-overflow">
+            <a class="text-bold Link--primary" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/ahmedelgabri/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ahmedelgabri">ahmedelgabri</a>
 
-        <div class="Box-body d-flex flex-items-center" >
-          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
-          <span class="color-text-danger h6 loader-error">Cannot retrieve contributors at this time</span>
+                <span class="markdown-title">
+                  <a data-pjax="true" title="Clean up codebase (#17)
+
+* Initial setup
+
+* fix components styles URL
+
+* Run prettier over all the examples
+
+* Update automate-user-managment example
+
+* Update drag-and-drop example
+
+* Update extra-notes example
+
+* Update font-awesome example
+
+* Update github-issue-importer example
+
+* Update implicit flow example
+
+* Update importer example
+
+* Update layers example
+
+* Update looking-glass example
+
+* Update plugin-boilerplate example
+
+* Update prototyping example
+
+* Update prototyping2 example
+
+* Update rtb-sticker-pack example
+
+* Update sample-app example
+
+* Update spreadsheet-sync example
+
+* Update stickers-to-shapes example
+
+* Update template-builder example
+
+* Update the-noun-project example
+
+* Update widget-counter example
+
+* Format markdown files
+
+* Make sure all packages are private
+
+* Add package.json files for all examples to manage them with lerna
+
+* Change prettier config to 2 spaces
+
+* Add workflow to check prettier &amp; eslint
+
+* add missing description" class="Link--secondary" href="/miroapp/app-examples/commit/65c1d8d467f32fed180f6c6d20181280d3066242">Clean up codebase (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="697900046" data-permission-text="Title is private" data-url="https://github.com/miroapp/app-examples/issues/17" data-hovercard-type="pull_request" data-hovercard-url="/miroapp/app-examples/pull/17/hovercard" href="https://github.com/miroapp/app-examples/pull/17">#17</a><a data-pjax="true" title="Clean up codebase (#17)
+
+* Initial setup
+
+* fix components styles URL
+
+* Run prettier over all the examples
+
+* Update automate-user-managment example
+
+* Update drag-and-drop example
+
+* Update extra-notes example
+
+* Update font-awesome example
+
+* Update github-issue-importer example
+
+* Update implicit flow example
+
+* Update importer example
+
+* Update layers example
+
+* Update looking-glass example
+
+* Update plugin-boilerplate example
+
+* Update prototyping example
+
+* Update prototyping2 example
+
+* Update rtb-sticker-pack example
+
+* Update sample-app example
+
+* Update spreadsheet-sync example
+
+* Update stickers-to-shapes example
+
+* Update template-builder example
+
+* Update the-noun-project example
+
+* Update widget-counter example
+
+* Format markdown files
+
+* Make sure all packages are private
+
+* Add package.json files for all examples to manage them with lerna
+
+* Change prettier config to 2 spaces
+
+* Add workflow to check prettier &amp; eslint
+
+* add missing description" class="Link--secondary" href="/miroapp/app-examples/commit/65c1d8d467f32fed180f6c6d20181280d3066242">)</a>
+                </span>
+          </div>
+
+            <span class="hidden-text-expander ml-1 flex-shrink-0">
+              <button type="button" class="ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+            </span>
+
+          <span class="ml-2">
+            <include-fragment accept="text/fragment+html" src="/miroapp/app-examples/commit/65c1d8d467f32fed180f6c6d20181280d3066242/rollup?direction=e" class="d-inline"></include-fragment>
+          </span>
         </div>
-</include-fragment>    </div>
+        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end color-text-secondary no-wrap">
+          <span class="d-none d-md-inline">
+            <span>Latest commit</span>
+            <a class="text-small text-mono Link--secondary" href="/miroapp/app-examples/commit/65c1d8d467f32fed180f6c6d20181280d3066242" data-pjax>65c1d8d</a>
+            <span itemprop="dateModified"><relative-time datetime="2020-09-16T08:32:31Z" class="no-wrap">Sep 16, 2020</relative-time></span>
+          </span>
+
+          <a data-pjax href="/miroapp/app-examples/commits/master/prototyping/webpack.config.js" class="ml-3 no-wrap Link--primary no-underline">
+            <svg class="octicon octicon-history text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path></svg>
+            <span class="d-none d-sm-inline">
+              <strong>History</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+        <div class="Details-content--hidden ml-5 mt-2"><pre class="mt-2 f6 ws-pre-wrap">* Initial setup
+
+* fix components styles URL
+
+* Run prettier over all the examples
+
+* Update automate-user-managment example
+
+* Update drag-and-drop example
+
+* Update extra-notes example
+
+* Update font-awesome example
+
+* Update github-issue-importer example
+
+* Update implicit flow example
+
+* Update importer example
+
+* Update layers example
+
+* Update looking-glass example
+
+* Update plugin-boilerplate example
+
+* Update prototyping example
+
+* Update prototyping2 example
+
+* Update rtb-sticker-pack example
+
+* Update sample-app example
+
+* Update spreadsheet-sync example
+
+* Update stickers-to-shapes example
+
+* Update template-builder example
+
+* Update the-noun-project example
+
+* Update widget-counter example
+
+* Format markdown files
+
+* Make sure all packages are private
+
+* Add package.json files for all examples to manage them with lerna
+
+* Change prettier config to 2 spaces
+
+* Add workflow to check prettier &amp; eslint
+
+* add missing description</pre></div>
+
+  </div>
+
+  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
+    <details class="details-reset details-overlay details-overlay-dark lh-default color-text-primary float-left mr-3" id="blob_contributors_box">
+      <summary class="Link--primary">
+        <svg class="octicon octicon-people text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
+        <strong>2</strong>
+        
+        contributors
+      </summary>
+      <details-dialog
+        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+        aria-label="Users who have contributed to this file"
+        src="/miroapp/app-examples/contributors-list/master/prototyping/webpack.config.js" preload>
+        <div class="Box-header">
+          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+            <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+          </button>
+          <h3 class="Box-title">
+            Users who have contributed to this file
+          </h3>
+        </div>
+        <include-fragment>
+          <svg style="box-sizing: content-box; color: var(--color-icon-primary);" viewBox="0 0 16 16" fill="none" width="32" height="32" class="my-3 mx-auto d-block anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+        </include-fragment>
+      </details-dialog>
+    </details>
+      <span class="">
+    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/plotnikov-rtb/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/miroapp/app-examples/commits/master/prototyping/webpack.config.js?author=plotnikov-rtb">
+      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/44468592?s=48&amp;v=4" width="24" height="24" alt="@plotnikov-rtb" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/ahmedelgabri/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/miroapp/app-examples/commits/master/prototyping/webpack.config.js?author=ahmedelgabri">
+      <img class="avatar mr-2 avatar-user" src="https://avatars.githubusercontent.com/u/63876?s=48&amp;v=4" width="24" height="24" alt="@ahmedelgabri" /> 
+</a>
+</span>
+
+  </div>
+    </div>
 
 
 
@@ -1269,72 +1551,46 @@
 
 
 
-    <readme-toc>
-
+  
     <div data-target="readme-toc.content" class="Box mt-3 position-relative
     ">
       
   <div
-    class="Box-header blob-header js-sticky js-position-sticky top-0 p-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
-    style="position: sticky; z-index: 1;"
+    class="Box-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
   >
-
-      <details
-  data-target="readme-toc.trigger"
-  data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}"
-  data-menu-hydro-click-hmac="4683090838ee44af87c6b74af2bc4cae9722d185d8eaa41b6c9a9a79b1f34758"
-  class="dropdown details-reset details-overlay"
->
-  <summary
-    class="btn btn-octicon m-0 mr-2 p-2"
-    aria-haspopup="true"
-    aria-label="Table of Contents">
-    <svg height="16" class="octicon octicon-list-unordered" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
-  </summary>
-
-  <details-menu class="SelectMenu" role="menu">
-    <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
-      <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;">
-
-          <a role="menuitem" class="filter-item py-1 text-emphasized" style="padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="8e7ff5399176dc0def67c188daf509b2c612a0ca3d109a8cba347edd84a47ad8" href="#prototyping-plugin">Prototyping plugin</a>
-          <a role="menuitem" class="filter-item py-1 text-emphasized" style="padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="8e7ff5399176dc0def67c188daf509b2c612a0ca3d109a8cba347edd84a47ad8" href="#how-feature-works">How feature works</a>
-          <a role="menuitem" class="filter-item py-1 text-emphasized" style="padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="8e7ff5399176dc0def67c188daf509b2c612a0ca3d109a8cba347edd84a47ad8" href="#how-to-build">How to build</a>
-      </div>
-    </div>
-  </details-menu>
-</details>
 
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      19 lines (13 sloc)
+      47 lines (46 sloc)
       <span class="file-info-divider"></span>
-    689 Bytes
+    929 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
 
     <div class="BtnGroup">
-      <a href="/miroapp/app-examples/raw/master/prototyping/README.md" id="raw-url" role="button" class="btn-sm btn BtnGroup-item ">Raw</a>
-        <a href="/miroapp/app-examples/blame/master/prototyping/README.md" data-hotkey="b" role="button" class="js-update-url-with-hash btn-sm btn BtnGroup-item ">Blame</a>
+      <a href="/miroapp/app-examples/raw/master/prototyping/webpack.config.js" id="raw-url" role="button" class="btn-sm btn BtnGroup-item ">Raw</a>
+        <a href="/miroapp/app-examples/blame/master/prototyping/webpack.config.js" data-hotkey="b" role="button" class="js-update-url-with-hash btn-sm btn BtnGroup-item ">Blame</a>
     </div>
 
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
              data-platforms="windows,mac"
-             href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2FREADME.md"
+             href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2Fwebpack.config.js"
              aria-label="Open this file in GitHub Desktop"
              data-ga-click="Repository, open with desktop">
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/miroapp/app-examples/edit/master/prototyping/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="NPjgdF80yEPz2iA1bDs38SXUXI9j9T46DN8Q68AFEJkCzZ03e9YJfIvaFPOlLJNDxyfGK/m289XAY3QDpcfbxg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/miroapp/app-examples/edit/master/prototyping/webpack.config.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="HKq5LwzZ0S3A3fgqJr2rpeLyux2MeJvdZza/dWz7+Nj8GCb05itICK+iVmMrFTKoeYsp0/lnIxPauQpw8YNYMA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/miroapp/app-examples/delete/master/prototyping/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6nwJXMblmHwPhxBmEen/YBIdv7DyY6qfr+NWp/VyFpgeRox5tfGlCEoxnnyE8jUHkZY8vj26krXULfU91f8vOg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/miroapp/app-examples/delete/master/prototyping/webpack.config.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Yq/JCDoZEedfmEftVGWabFWMH3lRXFPJ4Y8IV3DTbg4HfZ0KkRkIZsBpqyisT61XvMSuek6Zr8a7F2ebx6QkWw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trash" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1344,7 +1600,7 @@
 
     <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
       <details class="dropdown details-reset details-overlay d-inline-block">
-        <summary class="btn-octicon p-2" aria-haspopup="true" aria-label="possible actions">
+        <summary class="btn-octicon" aria-haspopup="true" aria-label="possible actions">
           <svg height="16" class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
         </summary>
 
@@ -1352,28 +1608,28 @@
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2FREADME.md"
+                   href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2Fwebpack.config.js"
                    data-ga-click="Repository, open with desktop">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/miroapp/app-examples/raw/master/prototyping/README.md">
+            <a class="dropdown-item" href="/miroapp/app-examples/raw/master/prototyping/webpack.config.js">
               View raw
             </a>
           </li>
             <li>
-              <a class="dropdown-item" href="/miroapp/app-examples/blame/master/prototyping/README.md">
+              <a class="dropdown-item" href="/miroapp/app-examples/blame/master/prototyping/webpack.config.js">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/miroapp/app-examples/edit/master/prototyping/README.md">Edit file</a>
+                <a class="dropdown-item" href="/miroapp/app-examples/edit/master/prototyping/webpack.config.js">Edit file</a>
               </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/miroapp/app-examples/delete/master/prototyping/README.md">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/miroapp/app-examples/delete/master/prototyping/webpack.config.js">Delete file</a>
               </li>
         </ul>
       </details>
@@ -1381,28 +1637,227 @@
 </div>
 
 
-        <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-prototyping-plugin" class="anchor" aria-hidden="true" href="#prototyping-plugin"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Prototyping plugin</h1>
-<p>With this plugin users can build interactive prototypes like in InVision or Overflow. Very comprehensive example for a
-lot of SDK capabilities, including experimental features.</p>
-<p><em>This plugin was created for demo purpose, it does not ready for production usage.</em></p>
-<h1><a id="user-content-how-feature-works" class="anchor" aria-hidden="true" href="#how-feature-works"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How feature works</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="/miroapp/app-examples/blob/master/prototyping/proto.gif"><img src="/miroapp/app-examples/raw/master/prototyping/proto.gif" style="max-width:100%;"></a></p>
-<h1><a id="user-content-how-to-build" class="anchor" aria-hidden="true" href="#how-to-build"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How to build</h1>
-<ul>
-<li>Run <code>npm install</code></li>
-<li>Replace <code>CLIENT_ID</code> in <a href="/miroapp/app-examples/blob/master/prototyping/src/config.ts"><code>src/config.ts</code></a> file You can get <em>CLIENT_ID</em> in app settings.</li>
-<li>Run <code>npm run build</code> or <code>npm run watch</code> to compile app</li>
-<li>Run serve the app <code>npx serve -p 8081</code></li>
-<li>Run <code>ngrok</code> using <code>npx ngrok http 8081</code></li>
-<li>Get https url from <em>ngrok</em> and paste it in <code>iframe url</code> in your app settings.</li>
-</ul>
-</article>
+      
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript  gist-border-0">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-k>const</span> <span class=pl-s1>path</span> <span class=pl-c1>=</span> <span class=pl-en>require</span><span class=pl-kos>(</span><span class=pl-s>&#39;path&#39;</span><span class=pl-kos>)</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-smi>module</span><span class=pl-kos>.</span><span class=pl-c1>exports</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">  <span class=pl-c1>mode</span>: <span class=pl-s1>process</span><span class=pl-kos>.</span><span class=pl-c1>env</span><span class=pl-kos>.</span><span class=pl-c1>NODE_ENV</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">  <span class=pl-c1>entry</span>: <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>index</span>: <span class=pl-s>&#39;./src/index.ts&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&#39;bottom-panel&#39;</span>: <span class=pl-s>&#39;./src/bottom-panel.tsx&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">  <span class=pl-c1>module</span>: <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>rules</span>: <span class=pl-kos>[</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>test</span>: <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>\.</span>tsx?<span class=pl-cce>$</span><span class=pl-c1>/</span></span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>use</span>: <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">          <span class=pl-c1>loader</span>: <span class=pl-s>&#39;ts-loader&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">          <span class=pl-c1>options</span>: <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">            <span class=pl-c1>transpileOnly</span>: <span class=pl-c1>true</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">          <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>exclude</span>: <span class=pl-pds><span class=pl-c1>/</span>node_modules<span class=pl-c1>/</span></span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>test</span>: <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>\.</span>css<span class=pl-cce>$</span><span class=pl-c1>/</span></span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>use</span>: <span class=pl-kos>[</span></td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">          <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">            <span class=pl-c1>loader</span>: <span class=pl-s>&#39;style-loader&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">          <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">          <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">            <span class=pl-c1>loader</span>: <span class=pl-s>&#39;css-loader&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">          <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>]</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>exclude</span>: <span class=pl-pds><span class=pl-c1>/</span>node_modules<span class=pl-c1>/</span></span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>test</span>: <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>\.</span>svg<span class=pl-cce>$</span><span class=pl-c1>/</span></span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>loader</span>: <span class=pl-s>&#39;svg-inline-loader&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>]</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">  <span class=pl-c1>resolve</span>: <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>modules</span>: <span class=pl-kos>[</span><span class=pl-s1>path</span><span class=pl-kos>.</span><span class=pl-en>resolve</span><span class=pl-kos>(</span><span class=pl-s>&#39;./src&#39;</span><span class=pl-kos>)</span><span class=pl-kos>,</span> <span class=pl-s1>path</span><span class=pl-kos>.</span><span class=pl-en>resolve</span><span class=pl-kos>(</span><span class=pl-s>&#39;./node_modules&#39;</span><span class=pl-kos>)</span><span class=pl-kos>]</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>extensions</span>: <span class=pl-kos>[</span><span class=pl-s>&#39;.tsx&#39;</span><span class=pl-kos>,</span> <span class=pl-s>&#39;.ts&#39;</span><span class=pl-kos>,</span> <span class=pl-s>&#39;.js&#39;</span><span class=pl-kos>,</span> <span class=pl-s>&#39;.css&#39;</span><span class=pl-kos>]</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">  <span class=pl-c1>output</span>: <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>filename</span>: <span class=pl-s>&#39;[name].js&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>path</span>: <span class=pl-s1>path</span><span class=pl-kos>.</span><span class=pl-en>resolve</span><span class=pl-kos>(</span><span class=pl-s1>__dirname</span><span class=pl-kos>,</span> <span class=pl-s>&#39;dist&#39;</span><span class=pl-kos>)</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span></td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-primary border color-border-tertiary rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/miroapp/app-examples/blame/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/webpack.config.js">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/miroapp/app-examples/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
 
-  </readme-toc>
 
   
 
@@ -1419,10 +1874,10 @@ lot of SDK capabilities, including experimental features.</p>
      hidden
      data-tagsearch-url="/miroapp/app-examples/find-definition"
      data-tagsearch-ref="master"
-     data-tagsearch-path="prototyping/README.md"
-     data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:203337003,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}"
-     data-hydro-click-hmac="69dfab2e484bba38699c27b2d7f3748604f73411e6624f6046b118f544d6053f">
+     data-tagsearch-path="prototyping/webpack.config.js"
+     data-tagsearch-lang="JavaScript"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:203337003,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/webpack.config.js&quot;,&quot;user_id&quot;:40415165}}"
+     data-hydro-click-hmac="0f7f74f3a85b054b2a5bba8b8e80ce68b5dad1358f6a4bc60f3de0e2308c0148">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>

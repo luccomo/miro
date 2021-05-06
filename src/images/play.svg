@@ -55,7 +55,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>app-examples/README.md at master · miroapp/app-examples</title>
+  <title>app-examples/play.svg at master · miroapp/app-examples</title>
     <meta name="description" content="Miro Apps Examples. Contribute to miroapp/app-examples development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -69,11 +69,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/40415165/ws?session=eyJ2IjoiVjMiLCJ1Ijo0MDQxNTE2NSwicyI6Njg4MTAxOTQyLCJjIjoxNDcyMjkzODMzLCJ0IjoxNjIwMzQxNjY5fQ==--8d22474e57468b1c98f7d74a4955a6086d26ced90397ee51ea84075ed7089372" data-refresh-url="/_alive" data-session-id="69bc8eae22fbae58ec04a672b8c945ae6d0f162be89f012a1268b313675c3bbe">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/40415165/ws?session=eyJ2IjoiVjMiLCJ1Ijo0MDQxNTE2NSwicyI6Njg4MTAxOTQyLCJjIjozMTg3MTg2MDE4LCJ0IjoxNjIwMzQxNzM4fQ==--2c88238c997360cf23c827b42bcc087916f3be0d48b6e16b02439c867885c7ca" data-refresh-url="/_alive" data-session-id="69bc8eae22fbae58ec04a672b8c945ae6d0f162be89f012a1268b313675c3bbe">
     <link rel="shared-web-socket-src" href="/socket-worker-3f088aa2.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="F0DD:0D72:270F88:3A5DB8:609473A1" data-pjax-transient="true" /><meta name="html-safe-nonce" content="29654562cbc10130185fcf07e48ec7f928481587ffed0c9d0b9645613d4bf77a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9taXJvYXBwL2FwcC1leGFtcGxlcy90cmVlL21hc3Rlci9wcm90b3R5cGluZyIsInJlcXVlc3RfaWQiOiJGMEREOjBENzI6MjcwRjg4OjNBNURCODo2MDk0NzNBMSIsInZpc2l0b3JfaWQiOiI1ODU4OTc5OTk5MjMyMjQ0MjU4IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="d5e2e855c6d98b7edb160012d00f2d9f50846ff4ac25c8e5de5c30de93717369" data-pjax-transient="true" />
+  <meta name="request-id" content="F0DD:0D72:272DC3:3A8B96:609473E6" data-pjax-transient="true" /><meta name="html-safe-nonce" content="29654562cbc10130185fcf07e48ec7f928481587ffed0c9d0b9645613d4bf77a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9taXJvYXBwL2FwcC1leGFtcGxlcy90cmVlL21hc3Rlci9wcm90b3R5cGluZy9zcmMvaW1hZ2VzIiwicmVxdWVzdF9pZCI6IkYwREQ6MEQ3MjoyNzJEQzM6M0E4Qjk2OjYwOTQ3M0U2IiwidmlzaXRvcl9pZCI6IjU4NTg5Nzk5OTkyMzIyNDQyNTgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="d5b26f58521126f5a5acb75cf42ae8ecd8ab8c3486bbd33fc6258453a21fc71c" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:203337003" data-pjax-transient>
 
@@ -112,7 +112,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NDg2NTNmY2RkZDgxOWI4OTIxOGRjNGI1ODRkZTRlN2RjY2MyODJlNzQwNmYzZGU0NTBjZmRhYWYzMDkwNWU5YXx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQuMjM5LjE0NCIsInJlcXVlc3RfaWQiOiJGMEREOjBENzI6MjcwRjg4OjNBNURCODo2MDk0NzNBMSIsInRpbWVzdGFtcCI6MTYyMDM0MTY2OSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="OWNlM2ExMGYxZTQxZDhmYTEzYmYyNmNkMWRhYTQyZTQ0NTUzMmY3MDBkOWIxMzcxMjVlZDgzOGQ3NTNjY2NjM3x7InJlbW90ZV9hZGRyZXNzIjoiNzMuMTQuMjM5LjE0NCIsInJlcXVlc3RfaWQiOiJGMEREOjBENzI6MjcyREMzOjNBOEI5Njo2MDk0NzNFNiIsInRpbWVzdGFtcCI6MTYyMDM0MTczOCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,AUTOCOMPLETE_EMOJIS_IN_MARKDOWN_EDITOR,GITHUB_TOKEN_PERMISSION,ACTIONS_CONCURRENCY_UI">
 
@@ -126,7 +126,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/miroapp/app-examples/blob/master/prototyping/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -202,7 +202,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="iS/jaWjjDqelX9OblQ1iSS19dHcqn1s5cO/QdzaGHxPaSVrqcqQe6lU3BMxfZeqNuconTmUSAQGq3E9Qswo3tw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="zr/SKAN4KAyqVxsjYpeKZR6Fc/pxqflxmyQgTM/+cdOd2WurGT84QVo/zHSo/wKhijIgwz4ko0lBF79rSnJZdw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -381,7 +381,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;luccomo&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="3ff62ebc013376315d148b5dfd2f43d24a00d1fd629870b82ca4f028865410ec" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;luccomo&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="3502f46c21a923a01621c11dd376a9ea12e6455a1a5c47efdd34b9cd9411c4e1" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" href="/settings/profile">
       Settings
@@ -390,7 +390,7 @@
       <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/40415165?s=40&amp;v=4" width="20" height="20" alt="@luccomo" />
       luccomo
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Um1JlXQ6M6k+QL98ooSP2T1Rf9u37MXp4fyXNivCcWpyID7ZTVjbkkYCCOIVi2YBPhY62AFiQe9k8tDWVIX1cA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Q9BMqEogxfZPIUfY215Vd2VZf8AtJIobzxrnzCil48JjnTvkc0ItzTdj8EZsUbyvZh46w5uqDh1KFKAsV+Jn2A==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15 d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -414,7 +414,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NDA0MTUxNjUiLCJ0IjoxNjIwMzQxNjY5fQ==--1582c1486fd8a2b663d5f28ffd44ee6908b45c7ec91dac891d08c398ac4f1675">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NDA0MTUxNjUiLCJ0IjoxNjIwMzQxNzM4fQ==--97f6d7cd00e0c84cba9740a0d142bc05eb1ca18e4c172d3c74aeac48b53c4fc4">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -587,7 +587,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="3793be2bfd87206c05597a78c0ac6c72a039a25b91674f8b51e0f6809b9bbfa5" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="773d0c46698ddcec7626af4dd9c731902ce3300c2c4533bf994495d7998aa603" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -631,7 +631,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="zl2gCUknNaoUqkB+lohjbJaUMmj6A/m3ELgd36cBzPHn3liZPfPAYttfkt0dsQahkcHlluTDIfHRBWP9nSBLWw==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="l0COgZ1fSdd27aFAUobA9RfRcWs3va+ZNO61qvKgwQq+w3YR6Yu8H7kYc+PZv6U4EISmlSl9d9/1U8uIyIFGoA==" />
 
                 <input type="hidden" name="repository_id" value="203337003">
 
@@ -733,7 +733,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ooq0EISP85W2bQwPUTbuRCjZaomhKzsK6sYcovU0ktSLCUyA8FsGXXmY3qzaD4uJL4y9d7/r40wre2KAzxUVfg==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DYNeeZCe3Otx7xGqujHWhUlxqpEN7QEthnqIN0y53OkkAKbp5EopI74awwkxCLNITiR9bxMt2WtHx/YVdphbQw==" />
 
               <input type="hidden" name="repository_id" value="203337003">
 
@@ -885,9 +885,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/miroapp/app-examples/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="gcxTJXmMPfOVkgXhCn8eXbrTA6BW+ywX/RVXIySokUBZwUD9Y4vCDOjtugi/by5Zo9k6pR6i++/Pc9u73MhyVQ==" />
+    <form class="starred js-social-form" action="/miroapp/app-examples/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="t/R4FCDJ/JFR1Eko4M7E9egJK56HyMu0UQ9Sa0Bz0Alv+WvMOs4Dbiyr9sFV3vTx8QMSm8+RHExjad7zuBMzHA==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="748680772e718ff914eee3b16fd5413fcefe31c4aa68fcc1b07e229b7a208268" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="43f591ea7d420f932d7597462d48ff8280bee5e7894068bd34833d5206bbaf5c" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
         <span>
           Unstar
 </span></button>        <a class="social-count js-social-count" href="/miroapp/app-examples/stargazers"
@@ -895,9 +895,9 @@
            117
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/miroapp/app-examples/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="CRWxsc55r5Hi5lrc/YBIE96T6wwuqTUjsiqK+fsZq9Mj2k1GcL1QXnqN6jJYUuwIrPts8MkwISp4pu9y9jL4uw==" />
+    <form class="unstarred js-social-form" action="/miroapp/app-examples/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7IxRfADyKZwwfqCBwU7ozEKLZ8G1xTOFA9CBUl+QcgrGQ62LvjbWU6gVEG9knEzXMOPgPVJcJ4zJXOTZUrshYg==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="759fa04f5a00046ff078a401fe4460deab6c9b751f052e03d82333827accb406" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star miroapp/app-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="f5fcf39f40d247f7ba7daeb19b7cad904962ab1a15a65e5726627f2f4aa01370" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
         <span>
           Star
 </span></button>        <a class="social-count js-social-count" href="/miroapp/app-examples/stargazers"
@@ -909,8 +909,8 @@
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/miroapp/app-examples/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="RAF7FRCOj2McrUEVjpocOd/wJgte4FVRVT3Y9mmY8lUJv0jK5t9De/v73wvpYShmiYgo9nSjVZ9i/Cge9Y9nYg==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="29d4eb1407efee5098243096fc7c682da30b3db0657eff026b6e452262a8aae4" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of miroapp/app-examples to your account" aria-label="Fork your own copy of miroapp/app-examples to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/miroapp/app-examples/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="3dW8INfG0BuvsnsTiMP+VOUn5B5S7uk6IzBRvlWAvuiQa4//IZccA0jk5Q3vOMoLs1/q43it6fQU8aFWyZcr3w==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="b812a17b826c4df0663cf68692b7d6d4d3b0cde01c2f1bfdca42685bb04775b6" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of miroapp/app-examples to your account" aria-label="Fork your own copy of miroapp/app-examples to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
                 Fork
 </button></form>
       <a href="/miroapp/app-examples/network/members" class="social-count"
@@ -1059,9 +1059,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/src/images/play.svg">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:29d2a0929feea52149d0751383576202a563dffe4ac30d132a67d7fdecb91d9d -->
+    <!-- blob contrib key: blob_contributors:v22:1b48ab43cb8a00f54b76241962128bb8e361b9eb7d84fcaeb0a49cc6ba0144b8 -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1137,7 +1137,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/src/images/play.svg" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
     <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
     <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
@@ -1171,7 +1171,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/miroapp/app-examples/blob/{{ urlEncodedRefName }}/prototyping/src/images/play.svg" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
     <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
     <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
@@ -1200,7 +1200,7 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples"><span>app-examples</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples/tree/master/prototyping"><span>prototyping</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples"><span>app-examples</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples/tree/master/prototyping"><span>prototyping</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples/tree/master/prototyping/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/miroapp/app-examples/tree/master/prototyping/src/images"><span>images</span></a></span><span class="separator">/</span><strong class="final-path">play.svg</strong>
       </h2>
       <a href="/miroapp/app-examples/find/master"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1214,7 +1214,7 @@
 </summary>
   <div>          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="c30dfa879e4a2498c9d0b35f0b234ed443df34ebad11f5ef0dea795997dad15b" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/miroapp/app-examples/find/master">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="cec2f9c8f7958c588da5563e54258b563501dce9f4ea000bbe26f2a767653115" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/miroapp/app-examples/find/master">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1228,12 +1228,12 @@
             </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="prototyping/README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="prototyping/src/images/play.svg" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
             <li>
-              <clipboard-copy value="https://github.com/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
+              <clipboard-copy value="https://github.com/miroapp/app-examples/blob/4e767ab9a87e381e3af9508106fe762fcb2c0ac9/prototyping/src/images/play.svg" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
                 </span>
@@ -1246,7 +1246,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/miroapp/app-examples/contributors/master/prototyping/README.md" class="commit-loader">
+      <include-fragment src="/miroapp/app-examples/contributors/master/prototyping/src/images/play.svg" class="commit-loader">
         <div class="Box-header Box-header--blue d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1269,72 +1269,56 @@
 
 
 
-    <readme-toc>
-
+  
     <div data-target="readme-toc.content" class="Box mt-3 position-relative
     ">
       
   <div
-    class="Box-header blob-header js-sticky js-position-sticky top-0 p-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
-    style="position: sticky; z-index: 1;"
+    class="Box-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
   >
-
-      <details
-  data-target="readme-toc.trigger"
-  data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}"
-  data-menu-hydro-click-hmac="4683090838ee44af87c6b74af2bc4cae9722d185d8eaa41b6c9a9a79b1f34758"
-  class="dropdown details-reset details-overlay"
->
-  <summary
-    class="btn btn-octicon m-0 mr-2 p-2"
-    aria-haspopup="true"
-    aria-label="Table of Contents">
-    <svg height="16" class="octicon octicon-list-unordered" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
-  </summary>
-
-  <details-menu class="SelectMenu" role="menu">
-    <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
-      <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;">
-
-          <a role="menuitem" class="filter-item py-1 text-emphasized" style="padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="8e7ff5399176dc0def67c188daf509b2c612a0ca3d109a8cba347edd84a47ad8" href="#prototyping-plugin">Prototyping plugin</a>
-          <a role="menuitem" class="filter-item py-1 text-emphasized" style="padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="8e7ff5399176dc0def67c188daf509b2c612a0ca3d109a8cba347edd84a47ad8" href="#how-feature-works">How feature works</a>
-          <a role="menuitem" class="filter-item py-1 text-emphasized" style="padding-left: 12px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:203337003,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}" data-hydro-click-hmac="8e7ff5399176dc0def67c188daf509b2c612a0ca3d109a8cba347edd84a47ad8" href="#how-to-build">How to build</a>
-      </div>
-    </div>
-  </details-menu>
-</details>
 
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      19 lines (13 sloc)
+      6 lines (6 sloc)
       <span class="file-info-divider"></span>
-    689 Bytes
+    366 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
+      <div class="BtnGroup">
+        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped tooltipped-n source "
+          href="/miroapp/app-examples/blob/master/prototyping/src/images/play.svg?short_path=c8d9909" aria-label="Display the source blob">
+          <svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+        </a>
+        <a class="btn btn-sm BtnGroup-item tooltipped tooltipped-n rendered selected"
+          href="/miroapp/app-examples/blob/master/prototyping/src/images/play.svg" aria-label="Display the rendered blob">
+          <svg class="octicon octicon-file" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+        </a>
+      </div>
 
     <div class="BtnGroup">
-      <a href="/miroapp/app-examples/raw/master/prototyping/README.md" id="raw-url" role="button" class="btn-sm btn BtnGroup-item ">Raw</a>
-        <a href="/miroapp/app-examples/blame/master/prototyping/README.md" data-hotkey="b" role="button" class="js-update-url-with-hash btn-sm btn BtnGroup-item ">Blame</a>
+      <a href="/miroapp/app-examples/raw/master/prototyping/src/images/play.svg" id="raw-url" role="button" class="btn-sm btn BtnGroup-item ">Raw</a>
+        <a href="/miroapp/app-examples/blame/master/prototyping/src/images/play.svg" data-hotkey="b" role="button" class="js-update-url-with-hash btn-sm btn BtnGroup-item ">Blame</a>
     </div>
 
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
              data-platforms="windows,mac"
-             href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2FREADME.md"
+             href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2Fsrc%2Fimages%2Fplay.svg"
              aria-label="Open this file in GitHub Desktop"
              data-ga-click="Repository, open with desktop">
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/miroapp/app-examples/edit/master/prototyping/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="NPjgdF80yEPz2iA1bDs38SXUXI9j9T46DN8Q68AFEJkCzZ03e9YJfIvaFPOlLJNDxyfGK/m289XAY3QDpcfbxg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/miroapp/app-examples/edit/master/prototyping/src/images/play.svg" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qbT2iUpN/fLOdl8JTiP50gE+5bKhTmNeYr0RfhlVkD440s0U/9+FwysAia3GTQtALc082u7el19W2wn4RkGyBA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/miroapp/app-examples/delete/master/prototyping/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6nwJXMblmHwPhxBmEen/YBIdv7DyY6qfr+NWp/VyFpgeRox5tfGlCEoxnnyE8jUHkZY8vj26krXULfU91f8vOg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/miroapp/app-examples/delete/master/prototyping/src/images/play.svg" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tl+aD+HQYmBBv5H2AXEMVZexZ2Pyu7qanN/p8YgmQX8/MznMiQu3lnMN2iyTt9n5v7PzSkAcP1AOplLxuIq2Cg==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trash" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1344,7 +1328,7 @@
 
     <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
       <details class="dropdown details-reset details-overlay d-inline-block">
-        <summary class="btn-octicon p-2" aria-haspopup="true" aria-label="possible actions">
+        <summary class="btn-octicon" aria-haspopup="true" aria-label="possible actions">
           <svg height="16" class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
         </summary>
 
@@ -1352,28 +1336,28 @@
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2FREADME.md"
+                   href="x-github-client://openRepo/https://github.com/miroapp/app-examples?branch=master&amp;filepath=prototyping%2Fsrc%2Fimages%2Fplay.svg"
                    data-ga-click="Repository, open with desktop">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/miroapp/app-examples/raw/master/prototyping/README.md">
+            <a class="dropdown-item" href="/miroapp/app-examples/raw/master/prototyping/src/images/play.svg">
               View raw
             </a>
           </li>
             <li>
-              <a class="dropdown-item" href="/miroapp/app-examples/blame/master/prototyping/README.md">
+              <a class="dropdown-item" href="/miroapp/app-examples/blame/master/prototyping/src/images/play.svg">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/miroapp/app-examples/edit/master/prototyping/README.md">Edit file</a>
+                <a class="dropdown-item" href="/miroapp/app-examples/edit/master/prototyping/src/images/play.svg">Edit file</a>
               </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/miroapp/app-examples/delete/master/prototyping/README.md">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/miroapp/app-examples/delete/master/prototyping/src/images/play.svg">Delete file</a>
               </li>
         </ul>
       </details>
@@ -1381,28 +1365,31 @@
 </div>
 
 
-        <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-prototyping-plugin" class="anchor" aria-hidden="true" href="#prototyping-plugin"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Prototyping plugin</h1>
-<p>With this plugin users can build interactive prototypes like in InVision or Overflow. Very comprehensive example for a
-lot of SDK capabilities, including experimental features.</p>
-<p><em>This plugin was created for demo purpose, it does not ready for production usage.</em></p>
-<h1><a id="user-content-how-feature-works" class="anchor" aria-hidden="true" href="#how-feature-works"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How feature works</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="/miroapp/app-examples/blob/master/prototyping/proto.gif"><img src="/miroapp/app-examples/raw/master/prototyping/proto.gif" style="max-width:100%;"></a></p>
-<h1><a id="user-content-how-to-build" class="anchor" aria-hidden="true" href="#how-to-build"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How to build</h1>
-<ul>
-<li>Run <code>npm install</code></li>
-<li>Replace <code>CLIENT_ID</code> in <a href="/miroapp/app-examples/blob/master/prototyping/src/config.ts"><code>src/config.ts</code></a> file You can get <em>CLIENT_ID</em> in app settings.</li>
-<li>Run <code>npm run build</code> or <code>npm run watch</code> to compile app</li>
-<li>Run serve the app <code>npx serve -p 8081</code></li>
-<li>Run <code>ngrok</code> using <code>npx ngrok http 8081</code></li>
-<li>Get https url from <em>ngrok</em> and paste it in <code>iframe url</code> in your app settings.</li>
-</ul>
-</article>
+      
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-svg  gist-border-0">
+      
+  <div class="render-wrapper ">
+    <div class="render-container is-render-pending js-render-target  "
+      data-identity="0726a942-035a-490b-a4ff-90b5ae0bf3b7"
+      data-host="https://render.githubusercontent.com"
+      data-type="svg">
+      <svg style="box-sizing: content-box; color: var(--color-icon-primary);" viewBox="0 0 16 16" fill="none" width="64" height="64" class="octospinner mx-auto anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/miroapp/app-examples/blob/master/prototyping/src/images/play.svg">Reload?</a></div>
+      <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
+      <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
+      <iframe class="render-viewer " src="https://render.githubusercontent.com/view/svg?color_mode=auto&amp;commit=4e767ab9a87e381e3af9508106fe762fcb2c0ac9&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d69726f6170702f6170702d6578616d706c65732f346537363761623961383765333831653361663935303831303666653736326663623263306163392f70726f746f747970696e672f7372632f696d616765732f706c61792e737667&amp;nwo=miroapp%2Fapp-examples&amp;path=prototyping%2Fsrc%2Fimages%2Fplay.svg&amp;repository_id=203337003&amp;repository_type=Repository#0726a942-035a-490b-a4ff-90b5ae0bf3b7" sandbox="allow-scripts allow-same-origin allow-top-navigation" title="File display">
+          Viewer requires iframe.
+      </iframe>
+    </div>
+  </div>
+
   </div>
 
     </div>
 
-  </readme-toc>
 
   
 
@@ -1414,20 +1401,6 @@ lot of SDK capabilities, including experimental features.</p>
         <button type="submit" class="btn" data-close-dialog>Go</button>
 </form>    </details-dialog>
   </details>
-
-    <div class="Popover anim-scale-in js-tagsearch-popover"
-     hidden
-     data-tagsearch-url="/miroapp/app-examples/find-definition"
-     data-tagsearch-ref="master"
-     data-tagsearch-path="prototyping/README.md"
-     data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:203337003,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/miroapp/app-examples/blob/master/prototyping/README.md&quot;,&quot;user_id&quot;:40415165}}"
-     data-hydro-click-hmac="69dfab2e484bba38699c27b2d7f3748604f73411e6624f6046b118f544d6053f">
-  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
-    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
-    </div>
-  </div>
-</div>
 
 
 </div>
